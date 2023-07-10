@@ -1,0 +1,35 @@
+@import url('https://fonts.google.com/specimen/Outfit');
+
+*{
+    background-color: hsl(220, 15%, 55%);
+    
+}
+
+.main{
+  display: flex;
+                         /*x axis align*/
+                         /* y axis align*/
+   font-size: 15px;
+   font-weight: 400,700;
+   height: 90vh;
+}
+.card {
+  transition: 0.3s;
+    background-color: white;
+    padding: 20px;
+    border-radius: 9px;
+    width: 200px;
+    border-top: 200px;
+    margin:auto; /*margin auto manages all sides, does the work equivalent to justiy and align*/
+}
+img {
+    border-radius: 5px 5px 0 0;
+    width: 200px;
+    height:200px;
+     
+  }
+  h4,p{
+    background-color:white;
+    border-top: 0px;
+  }
+
